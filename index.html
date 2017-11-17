@@ -1,0 +1,256 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<meta charset="utf-8">
+	<title>Self Introduction</title>
+	<meta name="viewport" content="width=device-width, initial-scale=1.0,maximum-scale=1.0,user-scalable=no">
+	<link type="text/css" rel="stylesheet" href="bootstrap\css\bootstrap.min.css">
+	<link type="text/css" rel="stylesheet" href="css\style.css">
+</head>
+<body>
+<!-- 导航栏 -->
+<nav id="tf-menu" class="navbar navbar-default navbar-fixed-top">
+	<div class="container">
+		<div class="navbar-header">
+			<!-- 在响应式布局中，当屏幕尺寸缩小到一定程度时显示 -->
+			 <button type="button" class="navbar-toggle collapsed" data-toggle="collapse" data-target="#bs-example-navbar-collapse-1">
+				<span class="sr-only">Toggle navigation</span>
+				<span class="icon-bar"></span>
+				<span class="icon-bar"></span>
+				<span class="icon-bar"></span>
+			  </button>
+			<a class="navbar-brand" href="index.html">&lt CodeFlow/&gt</a>
+		</div>
+		<div class="collapse navbar-collapse" id="bs-example-navbar-collapse-1">
+			<ul class="nav navbar-nav navbar-right">
+				<li><a href="#tf-home" class="page-scroll">Home</a></li>
+				<li><a href="#tf-about" class="page-scroll">About</a></li>
+				<li><a href="#tf-tree" class="page-scroll">Tree</a></li>
+				<li><a href="#tf-hobbies" class="page-scroll">Hobbies</a></li>
+				<li><a href="#tf-contact" class="page-scroll">Contact</a></li>
+		  </ul>
+		</div>
+	</div>
+	
+</nav>
+<!-- Home Page -->
+<div id="tf-home" class="text-center">
+	<div class="overlay">
+		<div class="content">
+			<h1>Welcome to <strong><span class="color">my page</span></strong></h1>
+			<p class="lead">
+				Keen on technology / Willing to share / A hardcore player
+			</p>
+			<a href="#tf-about" class="fa fa-angle-down page-scroll"></a>
+		</div>		
+	</div>
+
+</div>
+
+<!-- About me page -->
+<div id="tf-about">
+	<div class="container">
+		<div class="row">
+			<div class="col-md-6">
+				<img src="images/about-me.png" class="img-responsive">
+			</div>
+			<div class="col-md-6">
+				<div class="about-text">
+					<div>
+						<div class="section-line"></div>					
+						<p class="section">About me</p></div>	
+					<div class="section-titile">						
+						<h3>Yes! It's <span class="me">me</span> again</h3>
+					</div>
+					<br><br>
+					<p class="intro">
+						I'm glad to introduce myself. My name is <span class="me">Li Jinyan</span>, major in Software Engineering. I have great passion to do something about technology. I love coding, as it gives me a sense of accomplishment and make me feel like I'm doing something meaningful. Moreover, I'm a hardcore player. No matter what kind of game, I will try, as long as it is a good game. Programing or games, they have taken up all my energies. 					
+					</p>
+				</div>
+				<div class="about-link">
+					<a id="github-link" href="http://store.steampowered.com/" class="page-scroll" target="_blank"></a>
+					<a id="steam-link" href="https://github.com/" class="page-scroll" target="_blank"></a>
+					<a id="facebook-link" href="https://baike.baidu.com/item/Facebook/7449587?fr=aladdin" class="page-scroll" target="_blank"></a>
+					<a id="twitter-link" href="https://baike.baidu.com/item/Facebook/7449587?fr=aladdin" class="page-scroll" target="_blank"></a>
+				</div>
+			</div>
+		</div>
+	</div>
+</div>
+
+<!-- Skill Tree Page -->
+<div id="tf-tree" class="text-center">
+	<div class="overlay">
+		<div class="container">
+			<div class="section-title center">
+				<h2>My Skill <span class="me">Tree</span></h2>
+			</div>			
+		</div>
+	</div>
+	<div id="skill-tree">
+		<div class="container">
+			<div id="myCarousel" class="carousel slide">
+					   <!-- 轮播（Carousel）指标 -->
+					   <ol class="carousel-indicators">
+					      <li data-target="#myCarousel" data-slide-to="0" class="active"></li>
+					      <li data-target="#myCarousel" data-slide-to="1"></li>
+					      <li data-target="#myCarousel" data-slide-to="2"></li>
+					      <li data-target="#myCarousel" data-slide-to="3"></li>
+					   </ol>   
+					   <!-- 轮播（Carousel）项目 -->
+					   <div class="carousel-inner">
+					      <div class="item active">
+					      	<div class="skill-intro">
+					         	<p class="caption">client technique<br>
+					         		<span class="detail">I have studied the web client technique for 3 months.Thongh I'm not master the technique of HTML5, CSS3 and JS , I'll keep learning for doing well.  </span>
+					         	 </p>
+					         </div>
+					         <img src="images/SkillTree1.png" alt="firstimg">
+					      </div>
+					      <div class="item">
+					      	<div class="skill-intro">
+					         	<p class="caption">Server technique<br>
+					         		<span class="detail">C laungue brought me into the programming world. Now I can use MFC to develop an easy destop app and use Django to build an local website. But I still have a lot of things to study. </span>
+					         	 </p>
+					         </div>
+					         <img src="images/SkillTree2.png" alt="firstimg">
+					      </div>
+					      <div class="item">
+					      	<div class="skill-intro">
+					         	<p class="caption">Other technique<br>
+					         		<span class="detail">I often use Adobe series of applications to modify some pictures or cut vedios. It's great fun for me to do these things. </span>
+					         	 </p>
+					         </div>
+					         <img src="images/SkillTree1.png" alt="firstimg">
+					      </div>
+					      <div class="item">
+					      	 <div class="skill-intro">
+					         	<p class="caption">Plan to learn<br>
+					         		<span class="detail">Java, C#, SQL, Go, and Linux are my next step to master techniques. Besides, I want to use my spare time to learn Unity3D and C4D, I hope I can play the games which were developed by myself.</span>
+					         	 </p>
+					         </div>
+					         <img src="images/SkillTree1.png" alt="firstimg">
+					      </div>
+					   </div>
+					   <!-- 轮播（Carousel）导航 -->
+					   <div class="prev-slide" id="prev-btn">&lt</div>
+					   <div class="next-slide"  id="next-btn">&gt</div>
+				</div>
+		</div>
+	</div>
+</div>
+
+<!-- Hobbies page -->
+<div id="tf-hobbies" >
+	<div class="overlay">
+		<div class="container">
+			<div class="text-center" style="color:#fff">
+				<h2>My <span class="me">Hobbies</span></h2>
+			</div>			
+		</div>
+	</div>
+	<div id="hobbies-detail">
+		<div class="container">
+			<div class="row">
+				<div  class="col-md-6">
+					<div class="about-text">
+					<div>
+						<div class="section-line"></div>					
+						<p class="section">A Gamer</p></div>	
+					<div class="section-titile">						
+						<h3>This is <span class="me">what</span> I love best</h3>
+					</div>
+					<br><br>
+					<p class="intro">
+						I'm glad to introduce myself. My name is <span class="me">Li Jinyan</span>, major in Software Engineering. I have great passion to do something about technology. I love coding, as it gives me a sense of accomplishment and make me feel like I'm doing something meaningful. Moreover, I'm a hardcore player. No matter what kind of game, I will try, as long as it is a good game. Programing or games, they have taken up all my energies. 					
+					</p>
+				</div>
+				</div>
+				<div class="col-md-6">
+					<img src="images/Hobbies-bg.png" class="img-responsive" alt="loadingerror">
+				</div>
+			</div>
+		</div>
+	</div>
+</div>
+
+<!-- contact section -->
+<div id="tf-contact">
+	<div class="overlay">
+		<div class="container">
+			<div class="text-center" style="color:#fff">
+				<h2>Contact <span class="me">Me</span></h2>
+			</div>			
+		</div>
+	</div>
+	<div id="contact-part">
+		<div class="container">
+		<div class="caption  text-center row">						
+			<h6>Please give me your suggestions</h6>
+			<br>
+			<div class="col-sm-2"></div>
+			<div class="col-sm-8">
+				<p class="intro">
+					I'm appreciate of your visiting to my page! Could you give me your valuable suggestions. Your advice could make me better and we could know more about each other. 							
+				</p>
+			</div>
+			<div class="col-sm-2"></div>
+			<br><br><br>
+		</div>
+		<form role="form">
+			<div class="row">
+				<div class="col-sm-4">
+					<label  for="name">Name : </label>
+					<input type="text" class="form-control" id="name" placeholder="Please input your name...">
+				</div>
+				
+				<div class="col-sm-4">
+					<label  for="e-mail">E-mail : </label>
+					<input type="text" class="form-control" id="e-mail" placeholder="......@email.com">
+				</div>
+				
+				<div class="col-sm-4">
+					<label  for="phone">Phone : </label>
+					<input type="text" class="form-control" id="phone" placeholder="Your phone number...">
+				</div>
+			</div>
+			<br><br>
+			<div class="row">
+				<div class="col-sm-12">
+					<label for="text">Your suggestions : </label>
+					<textarea type="text" class="form-control" id="sug-text" placeholder="Please input your suggestion..." row="3"></textarea>
+				</div>
+			</div>
+			<br><br>
+			<div class="row">
+				<div class="col-sm-2">
+					 <p class="contact-method"><span class="glyphicon glyphicon-map-marker"></span> Chongqing, China </p>
+				</div>
+				<div class="col-sm-2">
+					 <p class="contact-method"><span class="glyphicon glyphicon-earphone"></span> 012 130 **** 2805 </p>
+				</div>
+				<div class="col-sm-2">
+					 <p class="contact-method"><span class="glyphicon glyphicon-envelope"></span> 794486346@qq.com</p>
+				</div>
+				<div class="col-sm-4"></div>
+				<div class="col-sm-2"><button type="button" class="btn btn-default pull-right">Submit</button></div>
+			</div>
+			
+		</form>
+		</div>
+	</div>
+
+<nav id="footer">
+	<div class="container">
+		<div class="text-center fnav">
+			<p>Copyright &copy; 2016. Li Jinyan All rights reserved.</p>
+		</div>
+	</div>
+</nav>
+
+</body>
+	<script type="text/javaScript" src="js\jquery-3.2.1.js"></script>
+	<script type="text/javaScript" src="js\echarts.min.js"></script>
+	<script type="text/javascript" src="bootstrap\js\bootstrap.min.js"></script>
+	<script type="text/javaScript" src="js\main.js"></script>
+</html>
